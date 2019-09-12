@@ -39,6 +39,7 @@ public class StreamsFilterTweets {
 
         // start our streams application
         kafkaStreams.start();
+        // adding a comment to see how version control in intellij works
     }
 
     private static JsonParser jsonParser = new JsonParser();
